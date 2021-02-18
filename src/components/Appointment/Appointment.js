@@ -19,19 +19,14 @@ const Appointment = (props) => {
     const [error, setError] = useState('')
 
     const options = [
-        { value:'10:00',  label:'10:00' },
-        { value:'10:30',  label:'10:30' },
+        { value:'10:00',  label:'10:00' },      
         { value:'11:00',  label:'11:00' },
-        { value:'11:30',  label:'11:30' },
-        { value:'12:00',  label:'12:00' },
-        { value:'12:30',  label:'12:30' },
-        { value:'13:00',  label:'13:00' },
-        { value:'13:30',  label:'13:30' },
-        { value:'14:00',  label:'14:00' },
-        { value:'14:30',  label:'14:30' },
+        { value:'12:00',  label:'12:00' },      
+        { value:'13:00',  label:'13:00' },      
+        { value:'14:00',  label:'14:00' }, 
         { value:'15:00',  label:'15:00' },
-        { value:'15:30',  label:'15:30' }];
-
+    
+    ]
     const [updatedOptions, setUpdatedOptions] = useState(options)
 
     useEffect(() =>{
@@ -187,7 +182,7 @@ const Appointment = (props) => {
 
 
                     <div id='make-btn' className='appointment-inner-container'>
-                        <button onClick={makeAppointment} className='appointment-btn'>Send</button>
+                        <button onClick={makeAppointment} className='appointment-btn'>Enviar</button>
                     </div>
                     <div id='change-btn' className='appointment-inner-container'>
                         <button onClick={changeAppointment} className='appointment-btn'>Update</button>
