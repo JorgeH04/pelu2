@@ -1,5 +1,5 @@
 import React from 'react'
-//import './Hero.css'
+import './Hero.css'
 import { Link } from 'react-router-dom'
  
 
@@ -17,11 +17,15 @@ const Hero = () => {
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    
-                                    <p class="animation animated-item-2">   </p>
+                                 <div class="carousell-content centeredd  " >
+  
+                                     <h2 class="boxed animation animated-item-11"> 
+                                        Estética Del Alma
+                                     </h2>
+                                    <p class="animation animated-item-2">    </p>
                                     <div className='hero-text'>
-
+                                   
+ 
                                     <Link to='/appointment'>
                                         <button className='hero-btn'>Turnos</button>
                                     </Link>
