@@ -68,7 +68,7 @@ const Login = (props) => {
                 <div className='register-form'>
                     <div className='register-info'>
                         <h1>Login</h1>
-                        <img src={logo} alt=''></img>
+                       
 
                     </div>
                     <div className='form-container'> 

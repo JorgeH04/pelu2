@@ -63,7 +63,7 @@ const Register = (props) => {
                 <div className='register-form mt-5'>
                     <div className='register-info '>
                         <h1>Registrarse</h1>
-                        <img src={logo} alt=''></img>
+                         
                     </div>
                     <div className='form-container'> 
                     {error !== '' ?  <ErrorMsg info={error}/>
