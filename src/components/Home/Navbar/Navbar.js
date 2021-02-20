@@ -91,7 +91,7 @@ const Navbar = () => {
                 </button>
                 <a class="navbar-brand" >
                 <Link  to='/'>
-                     <img src="https://res.cloudinary.com/dsk4fft6r/image/upload/c_scale,w_70/v1613657102/LogoMakr-6ovp2y_c32qap.png" alt="logo"/>
+                     <img src="https://res.cloudinary.com/dsk4fft6r/image/upload/c_scale,w_53/v1613657102/LogoMakr-6ovp2y_c32qap.png" alt="logo"/>
                 </Link>    
                 </a>         
             </div>
