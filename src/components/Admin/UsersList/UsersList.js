@@ -9,7 +9,7 @@ const UserList = () => {
     useEffect(()=>{
         console.log('user list rendred')
         axios.get('http://localhost:4000/getusers').then((response) => {
-        //axios.get('https://backbarber.herokuapp.com/getusers').then((response) => {
+        //axios.get('https://serverestetica.herokuapp.com/getusers').then((response) => {
         
             let {error} = response.data
             if(error){
@@ -26,7 +26,7 @@ const UserList = () => {
 
         console.log('deleting user: ', id)
 
-        //let response = await axios.post('http://localhost:3000/deleteacc', {id:id})
+        //let response = await axios.post('https://serverestetica.herokuapp.com/deleteacc', {id:id})
         let response = await axios.post('http://localhost:4000/deleteacc', {id:id})
         let {error} = response.data
         if(error){

@@ -32,7 +32,7 @@ const Register = (props) => {
         userData.confirmPass = confirmPass
        
         
-       //  let response =  await axios.post('https://backbarber.herokuapp.com/register', userData)
+       //  let response =  await axios.post('https://serverestetica.herokuapp.com/register', userData)
          let response =  await axios.post('http://localhost:4000/register', userData)
         let {error} = response.data
         if(error){
