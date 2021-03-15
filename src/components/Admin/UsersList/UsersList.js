@@ -40,13 +40,13 @@ const UserList = () => {
 
     return (
         <div className='user-list'>
-            <h1>Users List</h1>
+            <h1>Lista de clientes</h1>
             <table>
                 <thead>
                     <tr className='table-header'>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Phone</th>
+                        <th></th>
                         <th>Action</th>
                     </tr>
                 </thead>

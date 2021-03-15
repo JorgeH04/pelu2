@@ -96,8 +96,8 @@ const Appointment = (props) => {
         appointmentData.day = obj.day
         appointmentData.timeInMS = time
        
-      ///  let response = await axios.post('https://serverestetica.herokuapp.com/appointment', appointmentData)
-        let response = await axios.post('http://localhost:4000/appointment', appointmentData)
+        let response = await axios.post('https://serverestetica.herokuapp.com/appointment', appointmentData)
+      //  let response = await axios.post('http://localhost:4000/appointment', appointmentData)
         let { error } = response.data
         if(error){
             setError(error)
