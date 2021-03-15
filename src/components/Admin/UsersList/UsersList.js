@@ -46,8 +46,8 @@ const UserList = () => {
                     <tr className='table-header'>
                         <th>Name</th>
                         <th>Email</th>
-                        <th></th>
-                        <th>Action</th>
+                        <th>Celular</th>
+                        <th>Acción</th>
                     </tr>
                 </thead>
                 <tbody>

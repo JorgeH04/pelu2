@@ -9,12 +9,13 @@ const Row = ({appointments, time}) => {
   
         <tr>
             <th className='left-th'>{time}</th>
-            <TableData appointments={appointments.filter(obj => obj.day === 'Sun')} />
+         
             <TableData appointments={appointments.filter(obj => obj.day === 'Mon')} />
             <TableData appointments={appointments.filter(obj => obj.day === 'Tue')} />
             <TableData appointments={appointments.filter(obj => obj.day === 'Wed')} />
             <TableData appointments={appointments.filter(obj => obj.day === 'Thu')} />
             <TableData appointments={appointments.filter(obj => obj.day === 'Fri')} />
+            <TableData appointments={appointments.filter(obj => obj.day === 'Sa')} />
         </tr>
     )
 }
