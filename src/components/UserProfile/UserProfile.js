@@ -188,7 +188,7 @@ const UserProfile = (props) => {
                              </label>
                              <label class="pull-right">
                                 <a>
-                                   <p>{day}</p>
+                                   
                                    <p>{time}</p>
                                    <p>{date}</p>
                                 </a>
