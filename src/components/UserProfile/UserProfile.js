@@ -31,7 +31,7 @@ const UserProfile = (props) => {
     
     const getProfile = (userID) =>{
       // axios.get(`http://localhost:4000/profiledata?id=${userID}`).then((response) =>{
-         axios.get(`https://serverestetica.herokuapp.com/profiledata?id=${userID}`).then((response) =>{
+         axios.get(`https://backbarber.herokuapp.com/profiledata?id=${userID}`).then((response) =>{
 
             let {error, name, email,   phone } = response.data 
             if(error){
