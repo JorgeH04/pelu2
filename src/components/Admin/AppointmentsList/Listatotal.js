@@ -19,7 +19,8 @@ export default class AppointmentsList  extends Component {
     }
 
     fetchPosts() {
-      fetch('http://localhost:4000/getappointments')
+        fetch('https://serverestetica.herokuapp.com/getappointments')
+      //fetch('http://localhost:4000/getappointments')
         .then(res => res.json())
         .then(data => {
           console.log(data);
@@ -33,7 +34,8 @@ export default class AppointmentsList  extends Component {
 
     deleteAppointment(_id) {
 
-       fetch(`http://localhost:4000/delete/${_id}`, {
+       fetch(`https://serverestetica.herokuapp.com/delete/${_id}`, {
+     //  fetch(`http://localhost:4000/delete/${_id}`, {
         method: 'DELETE',
         headers: {
           'Accept': 'application/json',
