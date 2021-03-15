@@ -188,9 +188,9 @@ const UserProfile = (props) => {
                              </label>
                              <label class="pull-right">
                                 <a>
-                                   
-                                   <p>{time}</p>
                                    <p>{date}</p>
+                                   <p>{time}</p>
+                                  
                                 </a>
                              </label>
                         </div>
