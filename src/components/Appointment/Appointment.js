@@ -68,7 +68,7 @@ const Appointment = (props) => {
         appointmentData.day = obj.day
         appointmentData.timeInMS = time
 
-       let response = await axios.post('https://backbarber.herokuapp.com/changeappointment', appointmentData)
+       let response = await axios.post('https://serverestetica.herokuapp.com/changeappointment', appointmentData)
        //let response = await axios.post('http://localhost:4000/changeappointment', appointmentData)
         let { error } = response.data
         if(error){
@@ -172,8 +172,8 @@ const Appointment = (props) => {
 
                     <div id='appo-phone' className='appointment-inner-container'>
                         <p>Celular: <span className='red-astrix'>*</span></p>
-                        <input type="tel" className='phone-input' placeholder='phone...' 
-                        value={phone ? phone : 'phone...'}
+                        <input type="tel" className='phone-input' placeholder='celular...' 
+                        value={phone ? phone : 'celular...'}
                         onChange={(e)=>setPhone(e.target.value)}/>
                     </div>
 
