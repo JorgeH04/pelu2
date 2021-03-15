@@ -49,6 +49,7 @@ const Hours = () => {
                         <p className='text-center'>10.00 am to 15.00 pm</p>
                     </div>
                 </div>
+                <p>Los turnos programados fuera de esos horarios y días no tendrán validez</p>
                 <div className='hours-btn-div'>
                     <Link to='/appointment'>
                         <button className='hours-btn'>Turnos acá</button>

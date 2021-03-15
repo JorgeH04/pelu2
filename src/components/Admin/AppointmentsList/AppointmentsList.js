@@ -41,6 +41,8 @@ const AppointmentsList = () => {
         <div className='appointments-list'>
             <div>
                 <h1>Panel de control</h1>
+                <h3>Los turnos que figuran en este cuadro son los programados entre {`${thisSunday} y ${lastSunday}`}</h3>
+
                 <div className='admin-profile-links-container'>
                     <Link to='/' className='admin-profile-link'>
                         Home 
@@ -56,7 +58,6 @@ const AppointmentsList = () => {
                 </div>
             </div>
             
-            <h3>Los turnos que figuran en este cuadro son los programados entre {`${thisSunday} y ${lastSunday}`}</h3>
         
             <table>
                 <thead>
